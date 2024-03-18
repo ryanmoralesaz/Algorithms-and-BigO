@@ -1,6 +1,5 @@
 {
   "name": "Multi-Language Algorithms and Big-O",
-  "image": "mcr.microsoft.com/vscode/devcontainers/universal:linux",
   "customizations": {
     "vscode": {
       "extensions": [
