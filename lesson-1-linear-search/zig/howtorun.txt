@@ -1,0 +1,5 @@
+zig build-exe linear_search.zig
+./linear_search
+
+I got a lot of compile errors and the documentation for zig is not very good
+so I'm going to table zig.
