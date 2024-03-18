@@ -1,0 +1,2 @@
+tsc linear_search.ts
+node linear_search.js

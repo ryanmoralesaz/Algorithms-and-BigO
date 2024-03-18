@@ -1,0 +1,4 @@
+cargo new linear_search
+put code in main.rs
+cd linear_search
+cargo run
