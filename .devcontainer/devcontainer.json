@@ -11,7 +11,8 @@
         "golang.Go",
         "ms-python.python",
         "vscjava.vscode-java-pack",
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "ziglang.zig"
       ],
       "settings": {}
     }
