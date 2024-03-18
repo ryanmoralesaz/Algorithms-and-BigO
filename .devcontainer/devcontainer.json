@@ -1,0 +1,30 @@
+{
+  "name": "Multi-Language Algorithms and Big-O",
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:linux",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "matklad.rust-analyzer",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "ms-vscode.vscode-typescript-next",
+        "golang.Go",
+    "ms-python.python",
+    "vscjava.vscode-java-pack",
+    "dbaeumer.vscode-eslint"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.profiles.linux": {
+          "bash": {
+            "path": "bash"
+          }
+        }
+      }
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/post-create-command.sh",
+  "forwardPorts": [8080],
+  "remoteUser": "node"
+}
