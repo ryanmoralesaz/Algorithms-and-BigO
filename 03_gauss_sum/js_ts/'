@@ -1,0 +1,11 @@
+function linearSum(n) {
+    var sum = 0;
+    for (var i = 1; i <= n; i++) {
+        sum += i;
+    }
+    return sum;
+}
+console.time('linearSum');
+linearSum(100);
+console.timeEnd('linearSum');
+console.log(linearSum(100));
